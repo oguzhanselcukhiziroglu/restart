@@ -1,0 +1,58 @@
+
+                             BİR REPOSITORY'YE COMMITMENT İŞLEMİ NASIL YAPILIR?
+
+   1.  Katkıda bulunmak istediğin repoya GitHub üzerinden ulaş ve sağ üst köşede bulunan 'Fork' butonuna tıkla.
+       Bu şu demek oluyor. Aynı repodan kendinize bir kopya almış oluyorsunuz.
+
+   2.  Kendi GitHub'ın üzerinde az önce fork ettiğin repoya git ve 'Code' butonuna tıkla. Tıklama işlemi sonrası
+       aşağıda açılan linki kopyala.
+
+   3.  Masaüstüne git ve command prompt veya Git Bash aç.
+
+   4.  git clone (2. adımda kopyaladığın link) komutunu Git Bash'te çalıştır. (Bu sayede fork'ladığımız repoyu
+       kendi masaüstümüze indirmiş oluyoruz.)
+
+   5.  4.adımla birlikte masaüstümüze bir kopyasını klonladığımız repo üzerinde değişiklik/ekleme yap ve kaydet.
+
+   6.  Git Bash ile indirdiğin reponun dosya dizinine gel.
+
+   7.  Bir branch aç. (git checkout -b oguzhanselcukhiziroglu) -> Bu komutla yeni bir branch açtık ve artık o
+       branch'tayız.
+
+   8.  'git branch' komutunu çalıştır. Bu sayede yeni açtığın branch'ta olduğunu gör.
+
+   9.  'git add .' veya (örneğin 'Readme.md' dosyasında değişiklik yaptığınızı varsayalım) 'git add Readme.md'
+       komutu ile yaptığımız değişiklikleri ekliyoruz/kaydediyoruz.
+
+   10. Ardından 'git commit -m "Oguzhan Selcuk Hiziroglu'nun yaptigi degisiklikler eklendi" ' gibi bir komutla
+       commit işlemi yap.
+
+   11. Artık yaptığımız değişiklikleri repoya push etme zamanı. Bunu da aşağıda yer alan komut ile yapıyoruz:
+       git push origin oguzhanselcukhiziroglu (oguzhanselcukhiziroglu -> branch name)
+
+   12. Kendi GitHub'ında işlem yaptığımız (az önce klon ettiğin) repoya git. Branch'i oguzhanselcukhiziroglu
+       olarak değiştir. (Çünkü değişiklikleri o branch'te yaptık.) Yaptığın değişikleri orada görebilirsin.
+
+   13. Pull requests bölümüne gel. (Unutma! Hala az önce klon ettiğin repodasın.)
+
+   14. Yeni bir pull request yapacağız. Bunun için 'New Pull Request' butonuna tıklıyoruz.
+
+   15. 'compare' kısmındaki drop down menüden branch'ini seç. (Bu sayede kullanıcı olarak bizim repodaki
+       dosyalar üzerinde yaptığımız değişliklikleri görebiliyoruz.)
+
+   16. Sonrasında 'Create pull request' butonuna tıklıyoruz. Az önce yaptığın değişiklik ile ilgili yorum
+       bırakmak istiyorsan bu kısımda yazabilirsin. Commitment'ı önceki aşamalarda yapmıştık. (git commit -m
+       "Oguzhan Selcuk Hiziroglu'nun yaptigi degisiklikler eklendi" komutu ile)
+
+   17. 'Create pull request' butonuna tıkladığımızda pull request'i göndermiş oluyoruz. Bu sayede ana reponun
+       sahibine istek gitmiş oluyor.
+
+   18. Ana reponun sahibinin GitHub hesabında ilgili repoya gidildiğinde 'Pull requests' kısmına isteğin
+       gelmiş olduğu görülecektir.
+
+   19. 'Pull requests' butonuna tıkla ve ardından yapılan değişikliğin üzerine tıkla. Bu değişiklik repo
+       sahibi tarafından kabul görürse hali hazırda ekranında gördüğü 'Merge pull request' butonuna ardından
+       'Confirm merge' butonuna tıklayarak bu değişikliği ana repoyla birleştiriyoruz.
+
+   20. 'Code' butonuna tıklıyoruz. Bu sayede ana repoda istenilen değişikliğin başarıyla uygulandığını
+       gözlemliyoruz.
